@@ -354,12 +354,38 @@ footer, .full-site-container:after {
   }
 
   aside {
+    clear: both;
     width: 668px;
+    margin: 40px 0;
   }
 
+  .logo-block {
+    width: 62px;
+    height: 62px;
+    margin: 0 7px 10px 0;
+    background-size: cover;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  .portfolio-item {
+    width: 334px;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .tag {
+    margin-top: 180px;
+  }
+
+  input, textarea {
+    max-width: 668px;
+    width: 668px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-
 
 }
