@@ -300,3 +300,66 @@ footer, .full-site-container:after {
 #rockpaperscissors {
   background-image: url("../images/meow5.jpg");
 }
+
+@media screen and (max-width: 980px) {
+  .header-info, .main {
+    width: 700px;
+  }
+
+  section {
+    padding: 30px;
+    width: 350px;
+  }
+
+  aside {
+    width: 180px;
+    padding: 0 30px 20px;
+  }
+
+  .logo-block {
+    width: 50px;
+    height: 50px;
+    margin: 0 7px 10px 0;
+    background-size: cover;
+  }
+
+  .portfolio-item {
+    width: 350px;
+    height: 250px;
+    margin: 0  0 60px 0;
+    background-size: cover;
+  }
+
+  .tag {
+    margin-top: 180px;
+  }
+
+  input, textarea {
+    max-width: 350px;
+  }
+
+  #profilepic {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-info, .main {
+    width: 730px;
+  }
+
+  section {
+    width: 668px;
+  }
+
+  aside {
+    width: 668px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+
+}
