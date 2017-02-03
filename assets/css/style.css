@@ -411,6 +411,10 @@ footer, .full-site-container:after {
     width: 530px;
   }
 
+  nav {
+    width: 640px;
+  }
+
   header{
     width: 100%;
     padding: 0;
@@ -424,10 +428,6 @@ footer, .full-site-container:after {
   .header-info {
     height: 150px;
     text-align: center;
-  }
-
-  li:last-child {
-    padding-right: 20px;
   }
 
   .portfolio-item {
@@ -449,9 +449,18 @@ footer, .full-site-container:after {
     padding-bottom: 40px;
   }
 
+  .inline-element {
+    padding: 0 80px;
+  }
+
+  li:last-child {
+    padding-right: 80px;
+  }
+
   #profilepic {
     width: 538px;
     margin-right: 0;
     margin-bottom: 10px;
   }
+
 }
