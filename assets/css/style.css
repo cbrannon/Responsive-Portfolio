@@ -1,0 +1,302 @@
+/********* Tags *********/
+
+html, body {
+  height: 100%;
+}
+
+body, .margin-auto-sides {
+  margin: 0 auto;
+}
+
+header {
+  padding: 0 30px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+article {
+  width: 100%;
+}
+
+li {
+  padding: 0 20px;
+  border-right: 2px solid #cccccc;
+}
+
+li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+  width: 588px;
+}
+
+footer {
+  line-height: 106px;
+  font-size: 12px;
+  background-color: #666666;
+  border-top: 6px solid #4aaaa5;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
+aside {
+  width: 208px;
+  padding: 0 30px 20px;
+}
+
+/********* Size and Positioning *********/
+
+.header-info, .main {
+  width: 960px;
+}
+
+.header-info {
+  height: 75px;
+}
+
+.header-bar {
+  height: 75px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.inline-block-element {
+  display: inline-block;
+}
+
+.inline-element {
+  display: inline;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.zero-top {
+  margin-top: 0;
+}
+
+.full-site-container {
+  height: 100%;
+  min-height: 90%;
+  height: auto !important;
+  margin: 0 auto -2em;
+}
+
+.background {
+  background: url('../images/ignasi_pattern_s.png');
+  background-repeat: repeat;
+}
+
+.container-padding {
+  padding: 40px 0 80px 0;
+}
+
+.section-head {
+  font-size: 30px;
+  height: 50px;
+  border-bottom: 3px solid #cccccc;
+}
+
+.submit {
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.aside-head {
+  height: 40px;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.heads-bottom-margin {
+  margin-bottom: 25px;
+}
+
+.logo-block {
+  width: 62px;
+  height: 62px;
+  margin: 0 7px 10px 0;
+  background-size: cover;
+}
+
+/********* Colors and Styling *********/
+.grey-text {
+  color: #777777;
+}
+
+.green-text {
+  color: #4aaaa5;
+}
+
+.green-background {
+  background-color: #4aaaa5;
+}
+
+.grey-bottom-border {
+  border-bottom: 2px solid #cccccc;
+}
+
+.grey-full-border {
+  border: 1px solid #dddddd;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.submit:hover {
+  background: #dddddd;
+  color: #4aaaa5;
+}
+
+.serif {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.sans-serif {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input {
+  height: 25px;
+}
+
+textarea {
+  max-width: 582px;
+  height: 190px;
+}
+
+input, textarea {
+  width: 582px;
+}
+
+.input-top-margin {
+  margin-top: 5px;
+}
+
+.portfolio-item {
+  width: 275px;
+  height: 200px;
+  margin: 10px 38px 40px 0;
+  background-size: cover;
+}
+
+.tag {
+  height: 60px;
+  line-height: 60px;
+  margin-top: 130px;
+}
+
+.portfolio-item:hover .tag {
+  background-color: #fff;
+  color: #4aaaa5;
+}
+
+.zero-right {
+  margin-right: 0;
+}
+
+.full-site-container:after {
+  display: block;
+}
+
+footer, .full-site-container:after {
+  height: 106px;
+}
+
+.tag, footer {
+  text-align: center;
+}
+
+#subject {
+  display: none;
+}
+
+#profilepic {
+  width: 250px;
+  align: left;
+  margin: 10px 20px 0 0;
+}
+
+#bio {
+  line-height: 30px;
+  margin-top: -10px;
+}
+
+#github {
+  background-image: url("../images/github_square_black.png");
+}
+
+#github:hover {
+  background-image: url("../images/github_square_white.png");
+}
+
+#linkedin {
+  background-image: url("../images/linkedin_square_color.png");
+}
+
+#linkedin:hover {
+  background-image: url("../images/linkedin_square_white.png");
+}
+
+#overflow {
+  background-image: url("../images/overflow.png");
+}
+
+#overflow:hover {
+  background-image: url("../images/overflow-white.png");
+}
+
+#hangman {
+  background-image: url("../images/meow1.jpg");
+}
+
+#rpggame {
+  background-image: url("../images/meow2.jpg");
+}
+
+#triviagame {
+  background-image: url("../images/meow3.jpg");
+}
+
+#rutgersinfo {
+  background-image: url("../images/meow4.jpg");
+}
+
+#rockpaperscissors {
+  background-image: url("../images/meow5.jpg");
+}
