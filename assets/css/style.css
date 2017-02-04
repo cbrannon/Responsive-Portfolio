@@ -22,7 +22,6 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
-  overflow: hidden;
 }
 
 article {
@@ -112,6 +111,7 @@ aside {
 .background {
   background: url('../images/ignasi_pattern_s.png');
   background-repeat: repeat;
+  overflow: hidden;
 }
 
 .container-padding {
@@ -306,6 +306,13 @@ footer, .full-site-container:after {
     width: 700px;
   }
 
+  .full-site-container {
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -2em;
+  }
+
   section {
     padding: 30px;
     width: 350px;
@@ -317,10 +324,14 @@ footer, .full-site-container:after {
   }
 
   .logo-block {
-    width: 50px;
-    height: 50px;
-    margin: 0 7px 10px 0;
+    width: 52px;
+    height: 52px;
+    margin: 0 8px 10px 0;
     background-size: cover;
+  }
+
+  .zero-right {
+    margin-right: 0px;
   }
 
   .portfolio-item {
@@ -367,6 +378,7 @@ footer, .full-site-container:after {
   }
 
   footer {
+    margin-top: 20px;
     clear: both;
   }
 
@@ -449,12 +461,17 @@ footer, .full-site-container:after {
     padding-bottom: 40px;
   }
 
+  ul {
+    margin: 0 auto;
+  }
+
   .inline-element {
     padding: 0 80px;
   }
 
   li:last-child {
     padding-right: 80px;
+    margin-right: 2px;
   }
 
   #profilepic {
@@ -462,5 +479,4 @@ footer, .full-site-container:after {
     margin-right: 0;
     margin-bottom: 10px;
   }
-
 }
