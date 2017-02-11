@@ -405,7 +405,7 @@ footer, .full-site-container:after {
 
 @media screen and (max-width: 640px) {
   body {
-    width: 640px;
+    width: 100%;
   }
 
   .header-info {
@@ -424,7 +424,7 @@ footer, .full-site-container:after {
 
   aside {
     clear: both;
-    width: 530px;
+    width: 538px;
   }
 
   nav {
