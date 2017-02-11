@@ -112,6 +112,7 @@ aside {
 .background {
   background: url('../images/ignasi_pattern_s.png');
   background-repeat: repeat;
+  overflow: hidden;
 }
 
 .container-padding {
@@ -405,7 +406,7 @@ footer, .full-site-container:after {
 
 @media screen and (max-width: 640px) {
   body {
-    width: 100%;
+    width: 640px;
   }
 
   .header-info {
@@ -424,7 +425,7 @@ footer, .full-site-container:after {
 
   aside {
     clear: both;
-    width: 538px;
+    width: 530px;
   }
 
   nav {
