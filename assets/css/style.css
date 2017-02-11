@@ -405,11 +405,7 @@ footer, .full-site-container:after {
 }
 
 @media screen and (max-width: 640px) {
-  body {
-    width: 640px;
-  }
-
-  .header-info {
+  body, .header-info {
     width: 640px;
   }
 
